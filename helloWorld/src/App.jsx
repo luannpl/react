@@ -1,6 +1,6 @@
 import './App.css'
-import './HelloWorld'
-import HelloWorld from './HelloWorld'
+import HelloWorld from './components/HelloWorld'
+
 function App() {
 
 
