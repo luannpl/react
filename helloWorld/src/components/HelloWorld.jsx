@@ -1,3 +1,5 @@
+import './HelloWorld.css'
+
 function HelloWorld() {
   return (
     <div>
