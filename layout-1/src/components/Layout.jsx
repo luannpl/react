@@ -2,14 +2,14 @@
 import Header from './Header';
 import Footer from './Footer';
 
-function Layout({children}){
+function Layout(props){
     return (
         <>
         <header>
             <Header/>
         </header>
         <main>
-            {children}
+            {props.children}
         </main> 
         <footer>
             <Footer/>
